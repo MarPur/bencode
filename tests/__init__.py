@@ -1,0 +1,2 @@
+from tests.test_decode import DecodeBencodeTest
+from tests.test_encode import EncodeBencodeTest
