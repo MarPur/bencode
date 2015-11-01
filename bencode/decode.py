@@ -84,12 +84,6 @@ def _decode_list(list_to_decode):
     decoded_list = []
     chars_decoded = 0
 
-    try:
-        int(list_to_decode[1:].split(b':')[0])
-        is_string = True
-    except:
-        is_string = False
-
     index = 1
 
     while chr(list_to_decode[index]) != 'e':
